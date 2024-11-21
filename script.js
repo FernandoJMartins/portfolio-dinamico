@@ -11,8 +11,6 @@ window.addEventListener('mousemove', (e) => {
   cursorDot.style.top = `${postY}px`;
   cursorDot.style.left = postX + 'px';
 
-  // cursorOutline.style.top = postY + 'px';
-  // cursorOutline.style.left = postX + 'px';
   if ( e.target.closest('#name')) {
     console.log('project');
     cursorOutline.style.opacity = 0;
@@ -24,11 +22,16 @@ window.addEventListener('mousemove', (e) => {
       top: postY + 'px',
       display: 'block',
     }, {duration : 500, fill: 'forwards'});
-
-
-
   }	  
 
+  if (window.matchMedia("(max-width:700px)").matches){
+    cursorDot.style.display = "none";
+    cursorOutline.style.opacity = 0;
+  }
+  else {
+    cursorDot.style.display = "block";
+  }
+  
 
 });
 
