@@ -232,7 +232,7 @@ span:hover {
   .item {
     flex: 1 0 27%;
     width: 200px;
-    height: 500px;
+    height: 400px;
     perspective: 1000px;
     margin: 10px;
     position: relative;
@@ -333,7 +333,7 @@ h3{
   
 
   
-  @media screen and (max-width: 1980px) {
+  @media screen and (max-width: 1500px) {
     .item {
       flex: 1 0 27%;
       width: 200px;
@@ -348,12 +348,96 @@ h3{
   
   }
 
+
   }
 
 
+  @media screen and (max-width: 900px) {
+    .item {
+      flex: 1 0 35%;
+      width: 200px;
+      height: 350px;
+      perspective: 1000px;
+      margin: 10px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      text-align: center; /* Centraliza o conteúdo dentro do item */
+      overflow: visible;
+  
+  }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .button-30{
+      width: 200px;
+    }
+
+    .item {
+      flex: 1 0 40%;
+      width: 200px;
+      height: 350px;
+      perspective: 1000px;
+      margin: 10px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      text-align: center; /* Centraliza o conteúdo dentro do item */
+      overflow: visible;
+  
+  }
+  }
 
 
+  @media screen and (max-width: 700px) {
 
+    .item {
+      flex: 1 0 100%;
+      width: 200px;
+      height: 350px;
+      perspective: 1000px;
+      margin: 10px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      text-align: center; /* Centraliza o conteúdo dentro do item */
+      overflow: visible;
+  
+  }
+
+   h1{
+    font-size: 1.5rem;
+   }
+   h2 span {
+    font-size:2rem;
+   }
+
+   #text {
+    margin: 1rem 0;
+   }
+
+   .button-30 {
+    width: 100%;
+    margin: 10px auto;
+   }
+
+   .banner2 {
+    margin-top: 35px;
+   }
+
+   .banner2 h2 {
+    font-size: 1.5rem;
+   }
+
+   .banner {
+    margin-top: 10vh;
+   }
+
+   nav {
+    padding: 1rem 0rem;
+   }
+
+  }
 
 
   /* Style the back side */
