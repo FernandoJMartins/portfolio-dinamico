@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161616;
+    cursor: none;
+    scroll-behavior: smooth;
+}
+
+.cursor-dot, .cursor-outline {
+  position:fixed;
+  top: -20;
+  left:-20; 
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  z-index: 99999;
+}
+
+.cursor-outline {
+  top: 0%;
+  left: 50%; 
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: 2px solid hsla(126, 100%, 36%, 0.8);
+  background-color: transparent;
+}
+
+
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(20, 153, 11);
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    cursor: none;
+}
+
+h1, h2, h3, h4, h5, h6, #link{
+    color: white;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    margin: 0 2rem;
+    z-index: -1;
+}
+
+nav div {
+  overflow: visible;
+  display: flex;
+}
+
+
+nav h1, #link{
+    padding: 1rem;
+}
+
+nav h1:hover, #link:hover{
+    color: #4CBB17;
+    cursor: none;
+    transform: translateY(-2.3px);
+    transition: 0.2s, color 0.2s;;
+}
+
+
+#name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    width:80%;
+    margin-top: 150px;
+    
+}
+
+.banner h1 {
+    font-size: 1rem;
+    color: white;
+
+}
+
+#developer {
+    color: #4CBB17;
+}
+
+
+
+/* CSS */
+.button-30 {
+    margin-top: 10px;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: none;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  width: 12%;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #348310 0 -3px 0 inset;
+  background-color: #4CBB17;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+#name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: rgb(214, 214, 214);
+}
+
+
+
+span {
+    display: inline-block;
+}
+
+span:hover {
+    color: #4CBB17;
+    cursor: none;
+
+    transform: translateY(-1.7px);
+    transition: 0.2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+.banner2 {
+
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: start;
+        width:75%;
+        margin-top: 150px;
+        
+}
+
+#text {
+    font-size: 1rem;
+    color: rgb(214, 214, 214);
+    margin: 2rem 0;
+}
+
+.banner2 h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.projects {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+    gap: 20px; /* Espaçamento entre os itens */
+  }
+  
+  
+  .item {
+    flex: 1 0 27%;
+    width: 200px;
+    height: 500px;
+    perspective: 1000px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center; /* Centraliza o conteúdo dentro do item */
+    overflow: visible;
+
+}
+
+  
+
+  .item:hover{
+    background-color: transparent;
+  }
+  
+
+
+  #projectImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 40%;
+    background-color: black;
+  }
+
+
+
+
+#subtitle, #title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    position: relative;
+    top: -150px;
+    left: 0px;
+    background-color: transparent;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: xx-large;
+    margin: 10px auto;
+
+}
+
+
+
+#reactIcon {
+    background-color: transparent;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+h3{
+    position: relative;
+    top: -200px;
+    left: 0px;
+}
+
+
+.front {
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden; /* Garante que a imagem não saia dos limites da div */
+  }
+
+.front h3 {
+
+    margin: 2px;
+  }
+
+  
+  /* This container is needed to position the front and back side */
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .item:hover .inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    z-index: 1;
+  }
+  
+
+  
+  @media screen and (max-width: 1980px) {
+    .item {
+      flex: 1 0 27%;
+      width: 200px;
+      height: 350px;
+      perspective: 1000px;
+      margin: 10px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      text-align: center; /* Centraliza o conteúdo dentro do item */
+      overflow: visible;
+  
+  }
+
+  }
+
+
+
+
+
+
+
+  /* Style the back side */
+  .back {
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color: white;
+    transform: rotateY(180deg);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  .back h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .back p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: white;
+  }
+
+
+  .inner h1, h2, h3, h4, h5, h6, p{
+    background-color: transparent;
+    
+  }
+
+
+  #back2, #back2 p {
+    background-color: #111d13;
+    color: white;
+  }
+
+  #back3, #back3 p {
+    background-color: #a48931;
+    color: white;
+  }
+
+  #back4 {
+    background-color: #606c38;
+    color: white;
+  }
+
