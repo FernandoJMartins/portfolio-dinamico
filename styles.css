@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #161616;
+    background-color: #151515;
     cursor: none;
     scroll-behavior: smooth;
+    font-family: "Kanit", sans-serif;
+
 }
 
 .cursor-dot, .cursor-outline {
@@ -91,7 +93,7 @@ nav h1:hover, #link:hover{
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     width:80%;
     margin-top: 150px;
     
@@ -105,9 +107,14 @@ nav h1:hover, #link:hover{
 
 #developer {
     color: #4CBB17;
+    font-size: 1.2rem;
 }
 
-
+.banner p {
+    font-size: 1rem;
+    color: rgb(214, 214, 214);
+    margin: 2rem 0;
+}
 
 /* CSS */
 .button-30 {
@@ -204,7 +211,7 @@ span:hover {
         width: 100%;
         height: 100%;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         width:75%;
         margin-top: 150px;
         
@@ -486,3 +493,16 @@ h3{
     color: white;
   }
 
+
+
+  #back6, #back6 p, #back6 h1 {
+    background-color: white;
+    color: black;
+  }
+
+
+  p {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: rgb(214, 214, 214);
+  }
