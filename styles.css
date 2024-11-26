@@ -610,6 +610,14 @@ h3{
   width: 50%;
 }
 
+#sendEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
 input, textarea {
   background-color: white;
   padding: 10px;
