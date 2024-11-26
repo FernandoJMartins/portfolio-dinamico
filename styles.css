@@ -546,24 +546,29 @@ h3{
 
 
   #back2, #back2 p {
-    background-color: #111d13;
+    background-color: #214928;
     color: white;
   }
 
   #back3, #back3 p {
-    background-color: #104f55;
+    background-color: #177179;
     color: white;
   }
 
   #back4 {
-    background-color: #606c38;
+    background-color: #778a3a;
     color: white;
   }
 
 
 
   #back6, #back6 p, #back6 h1 {
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(47, 47, 47);
+    color: white;
+  }
+
+  #back7, #back7 p, #back7 h1 {
+    background-color: #0277BD;
     color: white;
   }
 
