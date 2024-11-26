@@ -15,26 +15,28 @@
     <nav>
         <h1 onclick="window.location.href='https://github.com/FernandoJMartins'">FJ</h1>
         <div>
-            <a id="link" href="#text">Projects</a>
-            <a id="link" href="#contact">Contact</a>
-            <a id="link" href="https://github.com/FernandoJMartins">Github</a>
+            <a id="english" class="link" onclick="toggleLanguage('English')">English</a>
+            <a id="nav-project" class="link" href="#project">Projetos</a>
+            <a id="nav-contact" class="link" href="#contact">Contato</a>
+            <a class="link" href="https://github.com/FernandoJMartins">Github</a>
         </div>
     </nav>
 
     <div class="banner">
-        <h1> HI, THERE 👋. I'm</h1>
+        <h1 id="english-description">OLÁ, TUDO BEM? 👋.  SOU</h1>
         <h2 id="name"><span>F</span><span>e</span><span>r</span><span>n</span><span>a</span><span>n</span><span>d</span><span>o</span>
             <span>J</span><span>ú</span><span>l</span><span>i</span><span>o</span><span>.</span></h2>
         <h1 id="developer">Web Developer 💻</h1>
-        <p id="firstOne"> I'm a fullstack developer from Brazil.</p>
-        <p> I have a passion for web development and love to create new things.</p>
-        <p id="lastOne"> I'm always looking for new challenges and opportunities to learn something new.</p>
-        <button class="button-30" onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">HIRE ME</button>
+        <p id="firstOne"> Sou um desenvolvedor FullStack do Brasil.</p>
+        <p id="middle">Focado na criação de experiências incríveis e eficientes para o usuário.</p>
+        <p id="lastOne">Apaixonado por codificação e resolução de problemas complexos.</p>
+        <button id="btn2" class="button-30" onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">HIRE ME</button>
+        <button id="btn" class="button-30" onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">FALE COMIGO</button>
     </div>
 
     <div class="banner2">
-        <h2 id="text">FEATURED PROJECTS —</h2>
-        <h2>Stuff I've Worked On <span style="font-size: 25px;">🚀🛠️</span></h2>
+        <h2 id="title-banner2">PROJETOS EM DESTAQUE —</h2>
+        <h2 id="subtitle-banner2">Portfólio <span style="font-size: 25px;">🚀🛠️</span></h2>
         <br>
         <br>
 
@@ -66,8 +68,8 @@
 
                     <a class ="back" href="https://fernandojmartins.github.io/myShop/">
                         <h1>MyShop</h1>
-                        <p>is an e-commerce application developed with React and TypeScript.
-                            The project demonstrates the creation of a dynamic and responsive interface focused on usability and performance.</p>
+                        <p id="myshop-subtitle">É um aplicativo de e-commerce desenvolvido com React e TypeScript.
+                            O projeto demonstra a criação de uma interface dinâmica e responsiva, com foco na usabilidade e no desempenho.</p>
                     </a>
                 </div>
             </div>
@@ -100,10 +102,10 @@
 
                     <a class = "back" id="back3" href="https://fernandojmartins.github.io/Garagee/">
                         <h1>Garagee</h1>
-                        <p> 
-                              Garagee is a web application designed to manage and streamline automotive service operations.
-                               Built with React and Next.js, it enables users to manage services, orders, and client data efficiently.
-                                The platform allows for adding, updating, and consulting services, products, and customer orders.
+                        <p id="garagee-subtitle"> 
+                            Garagee é um aplicativo web projetado para gerenciar e otimizar operações de serviços automotivos.
+                            Construído com React e Next.js, ele permite que os usuários gerenciem serviços, pedidos e dados de clientes de forma eficiente.
+                            A plataforma permite adicionar, atualizar e consultar serviços, produtos e pedidos de clientes.
                           </p>
                     </a>
                 </div>
@@ -138,10 +140,7 @@
 
                     <a class = "back" id="back2" href="https://fernandojmartins.github.io/WeatherForecast/">
                         <h1>Weather Now</h1>
-                        <p>An app built with HTML, CSS, and TypeScript. It allows users to search for a city's weather by entering 
-                            its name. The app fetches data from the OpenWeatherMap API and displays information 
-                            such as temperature, humidity, wind speed, and local time. The result is dynamically shown 
-                            on the page with an icon representing the current weather. </p>
+                        <p id="weather-subtitle">Um app construído com HTML, CSS e TypeScript. Ele permite que os usuários busquem o clima de uma cidade ao inserir seu nome. O aplicativo obtém dados da API OpenWeatherMap e exibe informações como temperatura, umidade, velocidade do vento e horário local. O resultado é mostrado dinamicamente na página com um ícone representando o clima atual. </p>
                     </a>
                 </div>
             </div>
@@ -170,8 +169,7 @@
 
                     <a class = "back" id="back4" href="https://fernandojmartins.github.io/to-do-list/">
                         <h1>Do Check Me</h1>
-                        <p>This web app allows users to manage tasks by adding, marking as completed, and removing them. It uses JavaScript to update the task list dynamically and stores the tasks in local storage for persistence. 
-                            It also provides functionality to delete tasks and ensures the task list is saved across sessions. </p>
+                        <p id="doCheckMe-subtitle">Esse web app permite que os usuários gerenciem tarefas, adicionando, marcando como concluídas e removendo-as. Ele utiliza JavaScript para atualizar a lista de tarefas dinamicamente e armazena as tarefas no armazenamento local para persistência. Também oferece a funcionalidade de garantir que a lista de tarefas seja salva entre as sessões.</p>
                     </a>
                 </div>
             </div>
@@ -199,9 +197,8 @@
                     <a class = "back" id="back6" href="https://github.com/FernandoJMartins/Chess-Project">
                         <h1>Java Chess</h1>
                         
-                        The game includes validations for moves, 
-                          check and checkmate detection, and uses object-oriented programming principles like inheritance and
-                           polymorphism. It dynamically updates the board state and supports user interactions for gameplay.
+                        <p id="JavaChess-subtitle">O jogo inclui validações para movimentos, detecção de xeque e xeque-mate, e utiliza princípios de programação orientada a objetos, como herança e polimorfismo. Ele atualiza dinamicamente o estado do tabuleiro e suporta interações do usuário para o jogo.
+                        </p>
                     </a>
                 </div>
             </div>
@@ -228,28 +225,28 @@
 
                     <a class = "back" id="back7" href="https://github.com/FernandoJMartins/Projeto-Triplo-integrado">
                         <h1>Help Me Chat</h1>
-                        <p> This project leverages advanced technologies from Operating Systems, Networking Protocols, and Data Structures to implement a real-time counseling chat. Threads and mutex ensure concurrency and mutual exclusion on the server, while client-server communication is handled via TCP/IP with standardized messages using dictionaries.</p>
+                        <p id="HelpMeChat-subtitle"> Este projeto utiliza tecnologias avançadas de Sistemas Operacionais, Protocolos de Rede e Estruturas de Dados para implementar um chat de aconselhamento em tempo real. Threads e mutex garantem a concorrência e a exclusão mútua no servidor, enquanto a comunicação cliente-servidor é realizada via TCP/IP com mensagens padronizadas usando dicionários.</p>
                     </a>
                 </div>
             </div>
         
             <div class="banner3">
-                <h2 id="contact">Contact Me </h2>
+                <h2 id="contact">Contate-me </h2>
 
 
                 <div class="contactMe">
                     <div class="form">
-                        <h1>Let's work together.</h1>
+                        <h1 id="form-title">Vamos trabalhar juntos.</h1>
                         <form id="sendEmail" action="https://formspree.io/f/mzzbjdej" method="POST">
                             <input type="text" name="name" id="nome" placeholder="Name" required>
                             <input type="email" name="email" id="email" placeholder="Email" required>
                             <textarea name="message" id="message" placeholder="Message" required></textarea>
-                            <button class='button-40' id="submit" type="submit">Send</button>
+                            <button class='button-40' id="submit" type="submit">Enviar</button>
                         </form>
                     </div>
                     <div class="right">
 
-                        <h1 class="right-text">Contact Information.</h1>
+                        <h1 class="right-text" id="right-text">Meios de Contato.</h1>
 
 
                             <a class="contactInfo" href='https://www.linkedin.com/in/fernando-j%C3%BAlio-06338721b/s'>
@@ -280,6 +277,15 @@
                         <p class="contactInfoText"> +55 83 986638416</p>
                         </a>
 
+                        <a class="contactInfo" href="mailto:fernandojmartinsprofissional@gmail.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                <path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 20c0 1.1.89 2 1.99 2h16c1.1 0 1.99-.9 1.99-2L22 4c0-1.1-.89-2-1.99-2zm0 18H4V6h16v12zm-2-7l-6 3-6-3V8l6 3 6-3v8z"/>
+                            </svg>
+                            <p class="contactInfoText">fernandojmartinsprofissional@gmail.com</p>
+                        </a>
+                        
+                        
+                        
                     </div>
             
             

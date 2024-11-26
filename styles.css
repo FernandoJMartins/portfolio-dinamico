@@ -43,7 +43,7 @@ body {
     cursor: none;
 }
 
-h1, h2, h3, h4, h5, h6, #link{
+h1, h2, h3, h4, h5, h6, .link{
     color: white;
 
 }
@@ -69,11 +69,11 @@ nav div {
 }
 
 
-nav h1, #link{
+nav h1, .link{
     padding: 1rem;
 }
 
-nav h1:hover, #link:hover{
+nav h1:hover, .link:hover{
     color: #4CBB17;
     cursor: none;
     transform: translateY(-2.3px);
@@ -130,6 +130,11 @@ nav h1:hover, #link:hover{
 #developer {
     color: #4CBB17;
     font-size: 1.2rem;
+}
+
+
+#btn2 {
+  display: none;
 }
 
 /* CSS */
@@ -651,8 +656,8 @@ input, textarea {
 }
 
 .right-text {
-  margin-bottom: 30px;
-  margin-top: 30px
+  margin: 10px 0;
+
 }
 
 
@@ -723,5 +728,12 @@ input, textarea {
 
   .right {
     margin: 0;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .english {
+    display: none;
   }
 }
