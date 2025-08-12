@@ -372,6 +372,24 @@ span:hover {
 
 }
 
+#subtitle {
+  background-color: black;
+  opacity: 85%;
+
+  border-radius: 40px;
+  margin: 10px auto;
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+#title {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
 
 
 #reactIcon {
