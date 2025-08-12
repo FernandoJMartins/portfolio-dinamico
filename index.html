@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,11 @@
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
@@ -23,15 +28,21 @@
     </nav>
 
     <div class="banner">
-        <h1 id="english-description">OLÁ, TUDO BEM? 👋.  SOU</h1>
-        <h2 id="name"><span>F</span><span>e</span><span>r</span><span>n</span><span>a</span><span>n</span><span>d</span><span>o</span>
-            <span>J</span><span>ú</span><span>l</span><span>i</span><span>o</span><span>.</span></h2>
+        <h1 id="english-description">OLÁ, TUDO BEM? 👋. SOU</h1>
+        <h2 id="name">
+            <span>F</span><span>e</span><span>r</span><span>n</span><span>a</span><span>n</span><span>d</span><span>o</span>
+            <span>J</span><span>ú</span><span>l</span><span>i</span><span>o</span><span>.</span>
+        </h2>
         <h1 id="developer">Web Developer 💻</h1>
         <p id="firstOne"> Sou um desenvolvedor FullStack do Brasil.</p>
         <p id="middle">Focado na criação de experiências incríveis e eficientes para o usuário.</p>
         <p id="lastOne">Apaixonado por codificação e resolução de problemas complexos.</p>
-        <button id="btn2" class="button-30" onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">HIRE ME</button>
-        <button id="btn" class="button-30" onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">FALE COMIGO</button>
+        <button id="btn2" class="button-30"
+            onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">HIRE
+            ME</button>
+        <button id="btn" class="button-30"
+            onclick="window.location.href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'">FALE
+            COMIGO</button>
     </div>
 
     <div class="banner2">
@@ -42,194 +53,511 @@
 
         <div class="projects" id="project">
 
-            <div class="item" >
+
+            <div class="item">
                 <div class="inner">
                     <div class="front">
-                        <img id="projectImage" src="images/myshop.png" alt="myshop">
-                        
+                        <img id="projectImage" src="images/heartyfy.png" alt="heartyfy">
+
                         <div id="projectName">
-                            <h3 id="title">MyShop</h3>
+                            <h3 id="title">Heartyfy</h3>
                             <div id="subtitle">
-                                <img id="reactIcon" width="34" height="34" src="https://img.icons8.com/color/48/api.png" alt="api"/>
-                                <svg id='reactIcon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="auto" viewBox="0 0 48 48">
-                                    <path fill="#80deea" d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z"></path><path fill="#80deea" d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z"></path><path fill="#80deea" d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z"></path><circle cx="24" cy="24" r="4" fill="#80deea"></circle>
-                                    </svg>
-                                    
-                                <img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png" alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo"/>
-                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                                    </svg>
-                                    <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                                    </svg>
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35"
+                                    height="35" viewBox="0 0 48 48">
+                                    <path fill="white"
+                                        d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z">
+                                    </path>
+                                </svg>
+
+
+                                <svg id='reactIcon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="auto" viewBox="0 0 48 48">
+                                    <path fill="#80deea"
+                                        d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z">
+                                    </path>
+                                    <path fill="#80deea"
+                                        d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z">
+                                    </path>
+                                    <path fill="#80deea"
+                                        d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z">
+                                    </path>
+                                    <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
+                                </svg>
+
+                                <img width="24" height="24"
+                                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png"
+                                    alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo" />
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                    </path>
+
+                                    <path fill="#EEE"
+                                        d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                    </path>
+                                </svg>
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#ff8f00"
+                                        d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path>
+                                    <path fill="#ffa000"
+                                        d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z">
+                                    </path>
+                                    <path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z">
+                                    </path>
+                                    <path fill="#ffc400"
+                                        d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z">
+                                    </path>
+                                </svg>
+
+
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <ellipse cx="23.5" cy="23.5" fill="#4fc3f7" rx="21.5" ry="15.5"></ellipse>
+                                    <path fill="#fafafa"
+                                        d="M22.471,24.946c-1.978-5.537-4.884-10.881-6.085-12.995c-0.352-0.619-0.787-1.186-1.29-1.69 l-2.553-2.553c-0.391-0.391-1.414,0-1.414,0L9.497,8.734l-0.162,2.319L8.773,11c-0.518,0-0.938,0.42-0.938,0.938 c0,0.52,0.413,0.969,0.933,0.961c1.908-0.03,3.567,1.601,3.567,1.601h2c0.32,0.32,1.139,1.366,1.328,2.439 c0.107,0.611,0.154,1.229,0.119,1.848C15.458,24.622,16.835,26,16.835,26c-5.5-3.5-14.819-2.964-14.819-2.964l0.193,3.016L5,31 c0.919,0.212,0.744-0.626,1.765-0.504c6.199,0.741,13.57,0.004,13.57,0.004c1.5,0,1.958-0.793,2.665-1.5 C24,28,22.849,26.004,22.471,24.946z">
+                                    </path>
+                                    <path fill="#fafafa"
+                                        d="M24.913,24.946c1.978-5.537,4.884-10.881,6.085-12.995c0.352-0.619,0.787-1.186,1.29-1.69 l2.553-2.553c0.391-0.391,1.414,0,1.414,0L37.814,9l0.235,2.053L38.611,11c0.518,0,0.938,0.42,0.938,0.938 c0,0.52-0.413,0.969-0.933,0.961c-1.908-0.03-3.567,1.601-3.567,1.601h-2c-0.32,0.32-1.139,1.366-1.328,2.439 c-0.107,0.611-0.154,1.229-0.119,1.848C31.926,24.622,30.549,26,30.549,26c5.5-3.5,15-3,15-3l-0.165,3l-3,5 c-0.919,0.212-0.744-0.626-1.765-0.504c-6.199,0.741-13.57,0.004-13.57,0.004c-1.5,0-1.958-0.793-2.665-1.5 C23.384,28,24.535,26.004,24.913,24.946z">
+                                    </path>
+                                    <path fill="#1a237e"
+                                        d="M43.832,16.326c-0.311-0.415-0.644-0.808-0.992-1.187c-0.059-0.064-0.123-0.123-0.183-0.186 c-0.309-0.326-0.628-0.639-0.96-0.938c-0.026-0.023-0.053-0.045-0.079-0.068c-0.587-0.522-1.201-1.012-1.845-1.454 c0.071-0.175,0.11-0.364,0.11-0.555c0-0.792-0.643-1.437-1.481-1.437c-0.001,0-0.003,0-0.004,0l-0.015,0.002V9.32 c0-0.534-0.288-1.032-0.75-1.299L36.269,7.24c-0.221-0.085-1.356-0.478-1.946,0.113l-1.837,1.838 c-0.381-0.106-0.89-0.25-1.211-0.326C28.893,8.288,26.446,8.014,24,8c-3.031-0.004-6.095,0.39-9.018,1.275l-1.921-1.921 c-0.59-0.59-1.725-0.199-2.018-0.079L9.75,8.021C9.288,8.288,9,8.786,9,9.32v1.186L8.938,10.5c-0.793,0-1.438,0.646-1.438,1.438 c0,0.311,0.103,0.614,0.283,0.865c-0.978,0.715-1.903,1.512-2.722,2.422c-0.315,0.35-0.616,0.715-0.9,1.096 C2.638,18.346,2.061,20.87,2,23.5c-0.035,2.628,0.455,5.223,1.932,7.343c1.478,2.132,3.451,3.854,5.624,5.163 c4.378,2.609,9.436,3.749,14.444,3.846c2.511-0.026,5.023-0.319,7.471-0.924c2.442-0.624,4.81-1.582,6.986-2.9 c2.163-1.328,4.143-3.041,5.617-5.18c1.476-2.122,1.932-4.719,1.894-7.347C45.905,20.87,45.357,18.348,43.832,16.326z M40.793,15.139c0.229,0.225,0.448,0.459,0.662,0.697c0.096,0.107,0.195,0.211,0.288,0.32c0.293,0.347,0.573,0.703,0.828,1.076 c1.088,1.579,1.785,3.39,1.957,5.242c-2.274-0.031-8.444,0.114-13.042,2.342c0.335-1.133,0.619-3.016,0.449-6.058 c-0.03-0.552,0.008-1.135,0.113-1.733c0.139-0.79,0.702-1.618,1.054-2.026h0.727c0.731,0,1.432-0.224,2.025-0.647 c0.624-0.444,1.559-0.981,2.588-0.954c0.072,0,0.139-0.03,0.21-0.04c0.267,0.192,0.536,0.383,0.792,0.587 c0.076,0.061,0.15,0.124,0.225,0.186c0.273,0.224,0.538,0.457,0.795,0.696C40.576,14.93,40.686,15.034,40.793,15.139z M24,9 c2.369,0.026,4.734,0.303,7.027,0.87c0.208,0.053,0.412,0.118,0.617,0.181c-0.482,0.503-0.906,1.054-1.246,1.652 c-1.175,2.068-4.124,7.483-6.121,13.075c-0.075,0.208-0.163,0.43-0.255,0.66c-0.112,0.281-0.226,0.572-0.331,0.868 c-0.104-0.296-0.219-0.588-0.331-0.868c-0.092-0.23-0.18-0.452-0.255-0.66c-2-5.599-4.947-11.009-6.121-13.075 c-0.297-0.523-0.667-1.004-1.074-1.456C18.522,9.461,21.264,9.054,24,9z M5.435,17.238c0.251-0.364,0.524-0.713,0.811-1.052 c0.094-0.112,0.196-0.218,0.294-0.327c0.202-0.225,0.408-0.448,0.625-0.662c0.115-0.114,0.233-0.224,0.351-0.335 c0.229-0.213,0.463-0.421,0.704-0.622c0.099-0.083,0.198-0.166,0.299-0.247c0.243-0.193,0.495-0.376,0.748-0.558 c0.886,0.089,1.707,0.522,2.262,0.918C12.123,14.776,12.823,15,13.555,15h0.727c0.352,0.407,0.915,1.235,1.054,2.026 c0.105,0.597,0.143,1.18,0.113,1.733c-0.17,3.042,0.114,4.927,0.449,6.059c-4.193-2.029-9.734-2.333-12.425-2.344 C3.648,20.623,4.346,18.814,5.435,17.238z M6.236,30.271c-0.192-0.224-0.396-0.437-0.572-0.673 C4.329,27.826,3.49,25.705,3.426,23.5c0-0.008,0.001-0.017,0.001-0.025c2.878,0.006,9.226,0.351,13.305,2.947 c0.211,0.134,0.484,0.088,0.646-0.104c0.162-0.19,0.153-0.477-0.014-0.662c-0.012-0.014-1.218-1.422-0.916-6.842 c0.035-0.63-0.007-1.29-0.126-1.962c-0.218-1.235-1.133-2.372-1.467-2.706C14.76,14.053,14.632,14,14.5,14h-0.945 c-0.522,0-1.021-0.159-1.445-0.462c-0.745-0.531-1.925-1.147-3.185-1.14c-0.131,0.004-0.226-0.063-0.281-0.117 C8.552,12.192,8.5,12.067,8.5,11.938c0-0.242,0.196-0.438,0.391-0.44l0.562,0.054c0.111,0.007,0.216-0.027,0.308-0.084l0.386,0.386 C10.242,11.949,10.37,12,10.5,12c0.053,0,0.106-0.009,0.158-0.025l1.207-0.402l1.281,1.281C13.244,12.951,13.372,13,13.5,13 s0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707L12.707,11l0.146-0.146C12.951,10.756,13,10.628,13,10.5 s-0.049-0.256-0.146-0.354l-1-1c-0.195-0.195-0.512-0.195-0.707,0C11.049,9.244,11,9.372,11,9.5s0.049,0.256,0.146,0.354 l0.646,0.646l-0.063,0.063l-1.095,0.365L10,10.293V9.32c0-0.178,0.096-0.344,0.25-0.434l1.22-0.712 c0.365-0.139,0.792-0.179,0.883-0.114l2.554,2.554c0.475,0.475,0.882,1.007,1.209,1.583c1.161,2.043,4.076,7.393,6.049,12.917 c0.078,0.219,0.171,0.452,0.267,0.694c0.347,0.871,0.741,1.858,0.58,2.583C22.808,29.309,21.728,30,20.49,30 c-0.07,0.002-7.123,0.139-13.425,0.011C6.798,30.002,6.509,30.114,6.236,30.271z M37.217,33.918 c-1.98,1.119-4.156,1.898-6.385,2.419c-2.228,0.539-4.528,0.798-6.832,0.812c-4.592,0.01-9.259-0.951-13.23-3.208 c-1.401-0.799-2.709-1.764-3.832-2.891c0.036-0.014,0.083-0.038,0.107-0.039C13.367,31.138,20.439,31.001,20.5,31 c1.396,0,2.616-0.673,3.192-1.67c0.575,0.997,1.794,1.67,3.182,1.67c0.071,0.002,7.146,0.139,13.462,0.011 c0.089,0.003,0.272,0.102,0.483,0.249C39.748,32.289,38.531,33.185,37.217,33.918z M42.329,29.593 c-0.247,0.329-0.526,0.635-0.803,0.941c-0.37-0.273-0.81-0.524-1.192-0.524c-0.005,0-0.011,0-0.017,0 c-6.3,0.125-13.354-0.01-13.434-0.011c-1.228,0-2.308-0.691-2.512-1.608c-0.161-0.725,0.232-1.712,0.58-2.583 c0.096-0.242,0.189-0.476,0.267-0.694c1.971-5.518,4.887-10.871,6.049-12.917c0.327-0.576,0.734-1.108,1.209-1.583l2.55-2.551 C35.122,8,35.548,8.037,35.841,8.14l1.293,0.747c0.154,0.09,0.25,0.256,0.25,0.434v0.973l-0.635,0.635l-1.095-0.365L35.591,10.5 l0.646-0.646c0.098-0.098,0.146-0.226,0.146-0.354s-0.049-0.256-0.146-0.354c-0.195-0.195-0.512-0.195-0.707,0l-1,1 c-0.098,0.098-0.146,0.226-0.146,0.354s0.049,0.256,0.146,0.354L34.677,11l-1.146,1.146c-0.195,0.195-0.195,0.512,0,0.707 C33.628,12.951,33.756,13,33.884,13s0.256-0.049,0.354-0.146l1.281-1.281l1.207,0.402C36.777,11.991,36.831,12,36.884,12 c0.13,0,0.258-0.051,0.354-0.146l0.386-0.386c0.092,0.057,0.197,0.092,0.308,0.084l0.515-0.052c0.242,0,0.438,0.196,0.438,0.438 c0,0.129-0.052,0.254-0.143,0.343c-0.056,0.055-0.157,0.109-0.282,0.117c-1.279,0.011-2.439,0.608-3.185,1.14 C34.851,13.841,34.352,14,33.83,14h-0.946c-0.133,0-0.26,0.053-0.354,0.146c-0.334,0.334-1.25,1.473-1.467,2.706 c-0.118,0.674-0.161,1.334-0.126,1.963c0.302,5.419-0.904,6.827-0.907,6.831c-0.18,0.181-0.196,0.468-0.037,0.666 c0.159,0.199,0.442,0.246,0.659,0.109c4.408-2.805,11.576-2.969,13.922-2.942c0,0.007,0.001,0.013,0.001,0.02 C44.507,25.705,43.666,27.824,42.329,29.593z">
+                                    </path>
+                                </svg>
                             </div>
                         </div>
                     </div>
 
-                    <a class ="back" href="https://fernandojmartins.github.io/myShop/">
-                        <h1>MyShop</h1>
-                        <p id="myshop-subtitle">É um aplicativo de e-commerce desenvolvido com React e TypeScript.
-                            O projeto demonstra a criação de uma interface dinâmica e responsiva, com foco na usabilidade e no desempenho.</p>
+                    <a class="back" id="heartfy" href="https://heartyfy.vercel.app/">
+                        <h1>Heartyfy</h1>
+                        <p id="myshop-subtitle">Heartyfy é uma aplicação web feita com React/Next.js, usando Firebase
+                            (Firestore, Auth e Storage) como backend. Integra
+                            Mercado Pago para pagamentos, com webhooks que disparam o envio do produto por email, além
+                            de gerar QR Code e website personalizável sob demanda para o
+                            entregável.</p>
                     </a>
                 </div>
             </div>
 
-            
-            <div class="item" >
-                <div class="inner"  >
-                    <div class="front">
-                        <img id="projectImage" src="images/garageReact.png" alt="myshop">
-                        
-                        <div id="projectName">
-                            <h3 id="title"> Garagee</h3>
-                            <div id="subtitle">
-
-                                <img  id="reactIcon" width="35" height="35" src="https://img.icons8.com/fluency/50/node-js.png" alt="node-js"/>
-
-                                    <svg  id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
-                                        <path fill="white" d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z"></path>
-                                        </svg>
-                                    <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                                    </svg>
-                                    <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                                    </svg>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class = "back" id="back3" href="https://fernandojmartins.github.io/Garagee/">
-                        <h1>Garagee</h1>
-                        <p id="garagee-subtitle"> 
-                            Garagee é um aplicativo web projetado para gerenciar e otimizar operações de serviços automotivos.
-                            Construído com React e Next.js, ele permite que os usuários gerenciem serviços, pedidos e dados de clientes de forma eficiente.
-                            A plataforma permite adicionar, atualizar e consultar serviços, produtos e pedidos de clientes.
-                          </p>
-                    </a>
-                </div>
-            </div>
-            
 
 
-            <div class="item" >
+
+
+
+
+            <div class="item">
                 <div class="inner">
                     <div class="front">
-                        <img id="projectImage" src="images/weatherForecast.png" alt="myshop">
-                        
-                        <div id="projectName">
-                            <h3 id="title">Weather Now</h3>
-                            <div id="subtitle">
-                                <img id="reactIcon" width="34" height="34" src="https://img.icons8.com/color/48/api.png" alt="api"/>
-                                <img width="24" height="24" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png" alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo"/>
-                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
-                                    </svg>
+                        <img id="projectImage" src="images/pet.png" alt="heartyfy">
 
-                                        <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                                        </svg>
-                                        <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                        <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                                        </svg>
+                        <div id="projectName">
+                            <h3 id="title">HelpPet</h3>
+                            <div id="subtitle">
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <polygon fill="#0d91d6" points="24,6 17.99,12.35 11.97,18.69 6,25 6,6"></polygon>
+                                    <polygon fill="#f88909"
+                                        points="24,6 23.96,6 17.97,12.33 11.96,18.68 6,24.97 6,25 6,25.09 6,42 14.69,33.31 20.87,27.13 27.06,20.94 33.25,14.75 42,6">
+                                    </polygon>
+                                    <polygon fill="#c757bc" points="14.69,33.31 6,42 6,25.09"></polygon>
+                                    <polygon fill="#d3638f" points="20.87,27.13 14.69,33.31 6,25.09 6,25 11.97,18.69">
+                                    </polygon>
+                                    <polygon fill="#e07063" points="27.06,20.94 20.87,27.13 11.97,18.69 17.99,12.35">
+                                    </polygon>
+                                    <polygon fill="#ec7d36" points="33.25,14.75 27.06,20.94 17.99,12.35 24,6"></polygon>
+                                    <polygon fill="#f88909" points="42,6 33.25,14.75 24,6"></polygon>
+                                    <polygon fill="#0095d5" points="11.51,19.15 7.99,22.88 6,21 6,13.94"></polygon>
+                                    <polygon fill="#2b88da" points="15.03,15.42 11.51,19.15 6,13.94 6,6.87"></polygon>
+                                    <polygon fill="#557bde" points="18.56,11.7 15.03,15.42 6,6.87 6,6 12.53,6">
+                                    </polygon>
+                                    <polygon fill="#806ee3" points="22.08,7.97 18.56,11.7 12.53,6 24,6"></polygon>
+                                    <polygon fill="#0095d5" points="23,25 6,42 9.35,42 17.52,42 40,42"></polygon>
+                                    <polygon fill="#2b88da" points="25.68,42 17.52,42 11.76,36.25 15.84,32.17">
+                                    </polygon>
+                                    <polygon fill="#557bde" points="33.86,42 25.68,42 15.84,32.17 19.92,28.09">
+                                    </polygon>
+                                    <polygon fill="#806ee3" points="42,42 33.86,42 19.92,28.09 24,24"></polygon>
+                                </svg>
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#ff8f00"
+                                        d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path>
+                                    <path fill="#ffa000"
+                                        d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z">
+                                    </path>
+                                    <path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z">
+                                    </path>
+                                    <path fill="#ffc400"
+                                        d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z">
+                                    </path>
+                                </svg>
 
                             </div>
                         </div>
                     </div>
 
-                    <a class = "back" id="back2" href="https://fernandojmartins.github.io/WeatherForecast/">
-                        <h1>Weather Now</h1>
-                        <p id="weather-subtitle">Um app construído com HTML, CSS e TypeScript. Ele permite que os usuários busquem o clima de uma cidade ao inserir seu nome. O aplicativo obtém dados da API OpenWeatherMap e exibe informações como temperatura, umidade, velocidade do vento e horário local. O resultado é mostrado dinamicamente na página com um ícone representando o clima atual. </p>
-                    </a>
-                </div>
-            </div>
-
-            
-            <div class="item" >
-                <div class="inner">
-                    <div class="front">
-                        <img id="projectImage" src="images/doCheckMe.png" alt="myshop">
-                        
-                        <div id="projectName">
-                            <h3 id="title">Do Check Me</h3>
-                            <div id="subtitle">
-                                        <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                        <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
-                                        </svg>
-                                        <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                            <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
-                                            </svg>
-                                        <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
-                                        <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"></path><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"></path>
-                                        </svg>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class = "back" id="back4" href="https://fernandojmartins.github.io/to-do-list/">
-                        <h1>Do Check Me</h1>
-                        <p id="doCheckMe-subtitle">Esse web app permite que os usuários gerenciem tarefas, adicionando, marcando como concluídas e removendo-as. Ele utiliza JavaScript para atualizar a lista de tarefas dinamicamente e armazena as tarefas no armazenamento local para persistência. Também oferece a funcionalidade de garantir que a lista de tarefas seja salva entre as sessões.</p>
-                    </a>
-                </div>
-            </div>
-            
-
-
-
-            
-            <div class="item" >
-                <div class="inner">
-                    <div class="front">
-                        <img id="projectImage" src="images/javaChess2.png" alt="myshop">
-                        
-                        <div id="projectName">
-                            <h3 id="title">Java Chess</h3>
-                            <div id="subtitle">
-                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
-                                    <path fill="#F44336" d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z"></path><path fill="#F44336" d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z"></path><g><path fill="#1565C0" d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z"></path><path fill="#1565C0" d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z"></path><path fill="#1565C0" d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z"></path><path fill="#1565C0" d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z"></path><path fill="#1565C0" d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z"></path></g>
-                                    </svg>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class = "back" id="back6" href="https://github.com/FernandoJMartins/Chess-Project">
-                        <h1>Java Chess</h1>
-                        
-                        <p id="JavaChess-subtitle">O jogo inclui validações para movimentos, detecção de xeque e xeque-mate, e utiliza princípios de programação orientada a objetos, como herança e polimorfismo. Ele atualiza dinamicamente o estado do tabuleiro e suporta interações do usuário para o jogo.
+                    <a class="back" id="pet" href="https://github.com/FernandoJMartins/Help-Pet">
+                        <h1>HelpPet</h1>
+                        <p id="myshop-subtitle">O projeto Help-Pet é uma aplicação web desenvolvida com React e Next.js,
+                            utilizando o Firebase como backend, com
+                            Firestore para gerenciamento e armazenamento em tempo real dos dados dos pets, Firebase
+                            Authentication para controle
+                            seguro dos usuários e Firebase Storage para armazenamento de imagens. O sistema permite
+                            cadastro, atualização e consulta
+                            de informações dos animais, facilitando a organização e o acesso rápido a dados importantes.
                         </p>
                     </a>
                 </div>
             </div>
-            
 
 
 
-            
-            <div class="item" >
+            <div class="item">
                 <div class="inner">
                     <div class="front">
-                        <img id="projectImage" src="images/chat.webp" alt="myshop">
-                        
+                        <img id="projectImage" src="images/myshop.png" alt="myshop">
+
                         <div id="projectName">
-                            <h3 id="title">Help Me Chat</h3>
+                            <h3 id="title">MyShop</h3>
                             <div id="subtitle">
-                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
-                                    <path fill="#0277BD" d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"></path><path fill="#FFC107" d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"></path>
-                                    </svg>
+                                <img id="reactIcon" width="34" height="34" src="https://img.icons8.com/color/48/api.png"
+                                    alt="api" />
+                                <svg id='reactIcon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="auto" viewBox="0 0 48 48">
+                                    <path fill="#80deea"
+                                        d="M24,34C11.1,34,1,29.6,1,24c0-5.6,10.1-10,23-10c12.9,0,23,4.4,23,10C47,29.6,36.9,34,24,34z M24,16	c-12.6,0-21,4.1-21,8c0,3.9,8.4,8,21,8s21-4.1,21-8C45,20.1,36.6,16,24,16z">
+                                    </path>
+                                    <path fill="#80deea"
+                                        d="M15.1,44.6c-1,0-1.8-0.2-2.6-0.7C7.6,41.1,8.9,30.2,15.3,19l0,0c3-5.2,6.7-9.6,10.3-12.4c3.9-3,7.4-3.9,9.8-2.5	c2.5,1.4,3.4,4.9,2.8,9.8c-0.6,4.6-2.6,10-5.6,15.2c-3,5.2-6.7,9.6-10.3,12.4C19.7,43.5,17.2,44.6,15.1,44.6z M32.9,5.4	c-1.6,0-3.7,0.9-6,2.7c-3.4,2.7-6.9,6.9-9.8,11.9l0,0c-6.3,10.9-6.9,20.3-3.6,22.2c1.7,1,4.5,0.1,7.6-2.3c3.4-2.7,6.9-6.9,9.8-11.9	c2.9-5,4.8-10.1,5.4-14.4c0.5-4-0.1-6.8-1.8-7.8C34,5.6,33.5,5.4,32.9,5.4z">
+                                    </path>
+                                    <path fill="#80deea"
+                                        d="M33,44.6c-5,0-12.2-6.1-17.6-15.6C8.9,17.8,7.6,6.9,12.5,4.1l0,0C17.4,1.3,26.2,7.8,32.7,19	c3,5.2,5,10.6,5.6,15.2c0.7,4.9-0.3,8.3-2.8,9.8C34.7,44.4,33.9,44.6,33,44.6z M13.5,5.8c-3.3,1.9-2.7,11.3,3.6,22.2	c6.3,10.9,14.1,16.1,17.4,14.2c1.7-1,2.3-3.8,1.8-7.8c-0.6-4.3-2.5-9.4-5.4-14.4C24.6,9.1,16.8,3.9,13.5,5.8L13.5,5.8z">
+                                    </path>
+                                    <circle cx="24" cy="24" r="4" fill="#80deea"></circle>
+                                </svg>
+
+                                <img width="24" height="24"
+                                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png"
+                                    alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo" />
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="back" href="https://fernandojmartins.github.io/myShop/">
+                        <h1>MyShop</h1>
+                        <p id="myshop-subtitle">É um aplicativo de e-commerce desenvolvido com React e TypeScript.
+                            O projeto demonstra a criação de uma interface dinâmica e responsiva, com foco na
+                            usabilidade e no desempenho.</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="inner">
+                    <div class="front">
+                        <img id="projectImage" src="images/garageReact.png" alt="myshop">
+
+                        <div id="projectName">
+                            <h3 id="title"> Garagee</h3>
+                            <div id="subtitle">
+
+                                <img id="reactIcon" width="35" height="35"
+                                    src="https://img.icons8.com/fluency/50/node-js.png" alt="node-js" />
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35"
+                                    height="35" viewBox="0 0 48 48">
+                                    <path fill="white"
+                                        d="M18.974,31.5c0,0.828-0.671,1.5-1.5,1.5s-1.5-0.672-1.5-1.5v-14c0-0.653,0.423-1.231,1.045-1.43 c0.625-0.198,1.302,0.03,1.679,0.563l16.777,23.704C40.617,36.709,44,30.735,44,24c0-11-9-20-20-20S4,13,4,24s9,20,20,20 c3.192,0,6.206-0.777,8.89-2.122L18.974,22.216V31.5z M28.974,16.5c0-0.828,0.671-1.5,1.5-1.5s1.5,0.672,1.5,1.5v13.84l-3-4.227 V16.5z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                    </path>
+                                </svg>
 
                             </div>
                         </div>
                     </div>
 
-                    <a class = "back" id="back7" href="https://github.com/FernandoJMartins/Projeto-Triplo-integrado">
-                        <h1>Help Me Chat</h1>
-                        <p id="HelpMeChat-subtitle"> Este projeto utiliza tecnologias avançadas de Sistemas Operacionais, Protocolos de Rede e Estruturas de Dados para implementar um chat de aconselhamento em tempo real. Threads e mutex garantem a concorrência e a exclusão mútua no servidor, enquanto a comunicação cliente-servidor é realizada via TCP/IP com mensagens padronizadas usando dicionários.</p>
+                    <a class="back" id="back3" href="https://garagee-9ajw.vercel.app/">
+                        <h1>Garagee</h1>
+                        <p id="garagee-subtitle">
+                            Garagee é um aplicativo web projetado para gerenciar e otimizar operações de serviços
+                            automotivos.
+                            Construído com React e Next.js, ele permite que os usuários gerenciem serviços, pedidos e
+                            dados de clientes de forma eficiente.
+                            A plataforma permite adicionar, atualizar e consultar serviços, produtos e pedidos de
+                            clientes.
+                        </p>
                     </a>
                 </div>
             </div>
-        
+
+
+
+            <div class="item">
+                <div class="inner">
+                    <div class="front">
+                        <img id="projectImage" src="images/weatherForecast.png" alt="myshop">
+
+                        <div id="projectName">
+                            <h3 id="title">Weather Now</h3>
+                            <div id="subtitle">
+                                <img id="reactIcon" width="34" height="34" src="https://img.icons8.com/color/48/api.png"
+                                    alt="api" />
+                                <img width="24" height="24"
+                                    src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo.png"
+                                    alt="external-typescript-an-open-source-programming-language-developed-and-maintained-by-microsoft-logo-color-tal-revivo" />
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                                    <path fill="#000001"
+                                        d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
+                                    </path>
+                                </svg>
+
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                    </path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="back" id="back2" href="https://fernandojmartins.github.io/WeatherForecast/">
+                        <h1>Weather Now</h1>
+                        <p id="weather-subtitle">Um app construído com HTML, CSS e TypeScript. Ele permite que os
+                            usuários busquem o clima de uma cidade ao inserir seu nome. O aplicativo obtém dados da API
+                            OpenWeatherMap e exibe informações como temperatura, umidade, velocidade do vento e horário
+                            local. O resultado é mostrado dinamicamente na página com um ícone representando o clima
+                            atual. </p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="inner">
+                    <div class="front">
+                        <img id="projectImage" src="images/doCheckMe.png" alt="myshop">
+
+                        <div id="projectName">
+                            <h3 id="title">Do Check Me</h3>
+                            <div id="subtitle">
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                                    <path fill="#000001"
+                                        d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
+                                    </path>
+                                </svg>
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                                    height="30" viewBox="0 0 48 48">
+                                    <path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
+                                    <path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
+                                    <path fill="#FFF"
+                                        d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z">
+                                    </path>
+                                    <path fill="#EEE"
+                                        d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="back" id="back4" href="https://fernandojmartins.github.io/to-do-list/">
+                        <h1>Do Check Me</h1>
+                        <p id="doCheckMe-subtitle">Esse web app permite que os usuários gerenciem tarefas, adicionando,
+                            marcando como concluídas e removendo-as. Ele utiliza JavaScript para atualizar a lista de
+                            tarefas dinamicamente e armazena as tarefas no armazenamento local para persistência. Também
+                            oferece a funcionalidade de garantir que a lista de tarefas seja salva entre as sessões.</p>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="item">
+                <div class="inner">
+                    <div class="front">
+                        <img id="projectImage" src="images/javaChess2.png" alt="myshop">
+
+                        <div id="projectName">
+                            <h3 id="title">Java Chess</h3>
+                            <div id="subtitle">
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40"
+                                    height="40" viewBox="0 0 48 48">
+                                    <path fill="#F44336"
+                                        d="M23.65,24.898c-0.998-1.609-1.722-2.943-2.725-5.455C19.229,15.2,31.24,11.366,26.37,3.999c2.111,5.089-7.577,8.235-8.477,12.473C17.07,20.37,23.645,24.898,23.65,24.898z">
+                                    </path>
+                                    <path fill="#F44336"
+                                        d="M23.878,17.27c-0.192,2.516,2.229,3.857,2.299,5.695c0.056,1.496-1.447,2.743-1.447,2.743s2.728-0.536,3.579-2.818c0.945-2.534-1.834-4.269-1.548-6.298c0.267-1.938,6.031-5.543,6.031-5.543S24.311,11.611,23.878,17.27z">
+                                    </path>
+                                    <g>
+                                        <path fill="#1565C0"
+                                            d="M32.084 25.055c1.754-.394 3.233.723 3.233 2.01 0 2.901-4.021 5.643-4.021 5.643s6.225-.742 6.225-5.505C37.521 24.053 34.464 23.266 32.084 25.055zM29.129 27.395c0 0 1.941-1.383 2.458-1.902-4.763 1.011-15.638 1.147-15.638.269 0-.809 3.507-1.638 3.507-1.638s-7.773-.112-7.773 2.181C11.683 28.695 21.858 28.866 29.129 27.395z">
+                                        </path>
+                                        <path fill="#1565C0"
+                                            d="M27.935,29.571c-4.509,1.499-12.814,1.02-10.354-0.993c-1.198,0-2.974,0.963-2.974,1.889c0,1.857,8.982,3.291,15.63,0.572L27.935,29.571z">
+                                        </path>
+                                        <path fill="#1565C0"
+                                            d="M18.686,32.739c-1.636,0-2.695,1.054-2.695,1.822c0,2.391,9.76,2.632,13.627,0.205l-2.458-1.632C24.271,34.404,17.014,34.579,18.686,32.739z">
+                                        </path>
+                                        <path fill="#1565C0"
+                                            d="M36.281,36.632c0-0.936-1.055-1.377-1.433-1.588c2.228,5.373-22.317,4.956-22.317,1.784c0-0.721,1.807-1.427,3.477-1.093l-1.42-0.839C11.26,34.374,9,35.837,9,37.017C9,42.52,36.281,42.255,36.281,36.632z">
+                                        </path>
+                                        <path fill="#1565C0"
+                                            d="M39,38.604c-4.146,4.095-14.659,5.587-25.231,3.057C24.341,46.164,38.95,43.628,39,38.604z">
+                                        </path>
+                                    </g>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="back" id="back6" href="https://github.com/FernandoJMartins/Chess-Project">
+                        <h1>Java Chess</h1>
+
+                        <p id="JavaChess-subtitle">O jogo inclui validações para movimentos, detecção de xeque e
+                            xeque-mate, e utiliza princípios de programação orientada a objetos, como herança e
+                            polimorfismo. Ele atualiza dinamicamente o estado do tabuleiro e suporta interações do
+                            usuário para o jogo.
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="item">
+                <div class="inner">
+                    <div class="front">
+                        <img id="projectImage" src="images/chat.webp" alt="myshop">
+
+                        <div id="projectName">
+                            <h3 id="title">Help Me Chat</h3>
+                            <div id="subtitle">
+                                <svg id="reactIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35"
+                                    height="35" viewBox="0 0 48 48">
+                                    <path fill="#0277BD"
+                                        d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z">
+                                    </path>
+                                    <path fill="#FFC107"
+                                        d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z">
+                                    </path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="back" id="back7" href="https://github.com/FernandoJMartins/Projeto-Triplo-integrado">
+                        <h1>Help Me Chat</h1>
+                        <p id="HelpMeChat-subtitle"> Este projeto utiliza tecnologias avançadas de Sistemas
+                            Operacionais, Protocolos de Rede e Estruturas de Dados para implementar um chat de
+                            aconselhamento em tempo real. Threads e mutex garantem a concorrência e a exclusão mútua no
+                            servidor, enquanto a comunicação cliente-servidor é realizada via TCP/IP com mensagens
+                            padronizadas usando dicionários.</p>
+                    </a>
+                </div>
+            </div>
+
             <div class="banner3">
                 <h2 id="contact">Contate-me </h2>
 
@@ -249,48 +577,65 @@
                         <h1 class="right-text" id="right-text">Meios de Contato.</h1>
 
 
-                            <a class="contactInfo" href='https://www.linkedin.com/in/fernando-j%C3%BAlio-06338721b/s'>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
-                                <path fill="white" d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                        <a class="contactInfo" href='https://www.linkedin.com/in/fernando-j%C3%BAlio-06338721b/s'>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 50 50">
+                                <path fill="white"
+                                    d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z">
+                                </path>
                             </svg>
                             <p class="contactInfoText">Linkedin</p>
-                            </a>
-                        
-                           
+                        </a>
+
+
 
                         <a class="contactInfo" href='https://github.com/FernandoJMartins'>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
-                                <path fill="white" d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 50 50">
+                                <path fill="white"
+                                    d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z">
+                                </path>
                             </svg>
-                        <p class="contactInfoText">Github</p>
+                            <p class="contactInfoText">Github</p>
                         </a>
 
-                        <a class="contactInfo" href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 128 128">
-                                <path fill="white" d="M 64 2 C 29.8 2 2 29.8 2 64 C 2 74.5 4.5992188 84.800391 9.6992188 93.900391 L 4.4003906 113.30078 C 3.5003906 116.40078 4.3992188 119.60039 6.6992188 121.90039 C 8.9992188 124.20039 12.200781 125.10078 15.300781 124.30078 L 35.5 119 C 44.3 123.6 54.099609 126 64.099609 126 C 98.299609 126 126.09961 98.2 126.09961 64 C 126.09961 47.4 119.7 31.899219 108 20.199219 C 96.2 8.4992187 80.6 2 64 2 z M 64 8 C 79 8 93.099609 13.800391 103.59961 24.400391 C 114.19961 35.000391 120.1 49.1 120 64 C 120 94.9 94.9 120 64 120 C 54.7 120 45.399219 117.59922 37.199219 113.19922 C 36.799219 112.99922 36.300781 112.80078 35.800781 112.80078 C 35.500781 112.80078 35.3 112.80039 35 112.90039 L 13.699219 118.5 C 12.199219 118.9 11.200781 118.09922 10.800781 117.69922 C 10.400781 117.29922 9.6 116.30078 10 114.80078 L 15.599609 94.199219 C 15.799609 93.399219 15.700781 92.600391 15.300781 91.900391 C 10.500781 83.500391 8 73.8 8 64 C 8 33.1 33.1 8 64 8 z M 64 17 C 38.1 17 17 38 17 64 C 17 72.3 19.200781 80.4 23.300781 87.5 C 24.900781 90.3 25.3 93.599219 24.5 96.699219 L 21.599609 107.19922 L 32.800781 104.30078 C 33.800781 104.00078 34.800781 103.90039 35.800781 103.90039 C 37.800781 103.90039 39.8 104.40039 41.5 105.40039 C 48.4 109.00039 56.1 111 64 111 C 89.9 111 111 89.9 111 64 C 111 51.4 106.09922 39.599219 97.199219 30.699219 C 88.399219 21.899219 76.6 17 64 17 z M 43.099609 36.699219 L 45.900391 36.699219 C 47.000391 36.699219 48.099219 36.799219 49.199219 39.199219 C 50.499219 42.099219 53.399219 49.399609 53.699219 50.099609 C 54.099219 50.799609 54.300781 51.699219 53.800781 52.699219 C 53.300781 53.699219 53.100781 54.299219 52.300781 55.199219 C 51.600781 56.099219 50.699609 57.100781 50.099609 57.800781 C 49.399609 58.500781 48.6 59.300781 49.5 60.800781 C 50.4 62.300781 53.299219 67.1 57.699219 71 C 63.299219 76 68.099609 77.600781 69.599609 78.300781 C 71.099609 79.000781 71.900781 78.900391 72.800781 77.900391 C 73.700781 76.900391 76.5 73.599609 77.5 72.099609 C 78.5 70.599609 79.500781 70.900391 80.800781 71.400391 C 82.200781 71.900391 89.400391 75.499219 90.900391 76.199219 C 92.400391 76.899219 93.399219 77.300391 93.699219 77.900391 C 94.099219 78.700391 94.100391 81.599609 92.900391 85.099609 C 91.700391 88.499609 85.700391 91.899609 82.900391 92.099609 C 80.200391 92.299609 77.699219 93.300391 65.199219 88.400391 C 50.199219 82.500391 40.7 67.099609 40 66.099609 C 39.3 65.099609 34 58.100781 34 50.800781 C 34 43.500781 37.799219 40 39.199219 38.5 C 40.599219 37 42.099609 36.699219 43.099609 36.699219 z"></path>
-                                </svg>
-                        <p class="contactInfoText">Whatsapp</p>
+                        <a class="contactInfo"
+                            href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 128 128">
+                                <path fill="white"
+                                    d="M 64 2 C 29.8 2 2 29.8 2 64 C 2 74.5 4.5992188 84.800391 9.6992188 93.900391 L 4.4003906 113.30078 C 3.5003906 116.40078 4.3992188 119.60039 6.6992188 121.90039 C 8.9992188 124.20039 12.200781 125.10078 15.300781 124.30078 L 35.5 119 C 44.3 123.6 54.099609 126 64.099609 126 C 98.299609 126 126.09961 98.2 126.09961 64 C 126.09961 47.4 119.7 31.899219 108 20.199219 C 96.2 8.4992187 80.6 2 64 2 z M 64 8 C 79 8 93.099609 13.800391 103.59961 24.400391 C 114.19961 35.000391 120.1 49.1 120 64 C 120 94.9 94.9 120 64 120 C 54.7 120 45.399219 117.59922 37.199219 113.19922 C 36.799219 112.99922 36.300781 112.80078 35.800781 112.80078 C 35.500781 112.80078 35.3 112.80039 35 112.90039 L 13.699219 118.5 C 12.199219 118.9 11.200781 118.09922 10.800781 117.69922 C 10.400781 117.29922 9.6 116.30078 10 114.80078 L 15.599609 94.199219 C 15.799609 93.399219 15.700781 92.600391 15.300781 91.900391 C 10.500781 83.500391 8 73.8 8 64 C 8 33.1 33.1 8 64 8 z M 64 17 C 38.1 17 17 38 17 64 C 17 72.3 19.200781 80.4 23.300781 87.5 C 24.900781 90.3 25.3 93.599219 24.5 96.699219 L 21.599609 107.19922 L 32.800781 104.30078 C 33.800781 104.00078 34.800781 103.90039 35.800781 103.90039 C 37.800781 103.90039 39.8 104.40039 41.5 105.40039 C 48.4 109.00039 56.1 111 64 111 C 89.9 111 111 89.9 111 64 C 111 51.4 106.09922 39.599219 97.199219 30.699219 C 88.399219 21.899219 76.6 17 64 17 z M 43.099609 36.699219 L 45.900391 36.699219 C 47.000391 36.699219 48.099219 36.799219 49.199219 39.199219 C 50.499219 42.099219 53.399219 49.399609 53.699219 50.099609 C 54.099219 50.799609 54.300781 51.699219 53.800781 52.699219 C 53.300781 53.699219 53.100781 54.299219 52.300781 55.199219 C 51.600781 56.099219 50.699609 57.100781 50.099609 57.800781 C 49.399609 58.500781 48.6 59.300781 49.5 60.800781 C 50.4 62.300781 53.299219 67.1 57.699219 71 C 63.299219 76 68.099609 77.600781 69.599609 78.300781 C 71.099609 79.000781 71.900781 78.900391 72.800781 77.900391 C 73.700781 76.900391 76.5 73.599609 77.5 72.099609 C 78.5 70.599609 79.500781 70.900391 80.800781 71.400391 C 82.200781 71.900391 89.400391 75.499219 90.900391 76.199219 C 92.400391 76.899219 93.399219 77.300391 93.699219 77.900391 C 94.099219 78.700391 94.100391 81.599609 92.900391 85.099609 C 91.700391 88.499609 85.700391 91.899609 82.900391 92.099609 C 80.200391 92.299609 77.699219 93.300391 65.199219 88.400391 C 50.199219 82.500391 40.7 67.099609 40 66.099609 C 39.3 65.099609 34 58.100781 34 50.800781 C 34 43.500781 37.799219 40 39.199219 38.5 C 40.599219 37 42.099609 36.699219 43.099609 36.699219 z">
+                                </path>
+                            </svg>
+                            <p class="contactInfoText">Whatsapp</p>
                         </a>
 
-                        <a class="contactInfo" href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'>
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24"><path fill="white" d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z"/></svg>
-                        <p class="contactInfoText"> +55 83 986638416</p>
+                        <a class="contactInfo"
+                            href='https://api.whatsapp.com/send/?phone=5583996335515&text&type=phone_number&app_absent=0'>
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 24 24">
+                                <path fill="white"
+                                    d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z" />
+                            </svg>
+                            <p class="contactInfoText"> +55 83 986638416</p>
                         </a>
 
                         <a class="contactInfo" href="mailto:fernandojmartinsprofissional@gmail.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
-                                <path fill="white" d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 20c0 1.1.89 2 1.99 2h16c1.1 0 1.99-.9 1.99-2L22 4c0-1.1-.89-2-1.99-2zm0 18H4V6h16v12zm-2-7l-6 3-6-3V8l6 3 6-3v8z"/>
+                                <path fill="white"
+                                    d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 20c0 1.1.89 2 1.99 2h16c1.1 0 1.99-.9 1.99-2L22 4c0-1.1-.89-2-1.99-2zm0 18H4V6h16v12zm-2-7l-6 3-6-3V8l6 3 6-3v8z" />
                             </svg>
                             <p class="contactInfoText">fernandojmartinsprofissional@gmail.com</p>
                         </a>
-                        
-                        
-                        
+
+
+
                     </div>
-            
-            
-        </div>
-    </div>
+
+
+                </div>
+            </div>
 
 </body>
+
 </html>
