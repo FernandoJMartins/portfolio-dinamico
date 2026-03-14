@@ -2,7 +2,7 @@
 document.addEventListener('mousemove', (e) => {
     const body = document.body;
     const x = e.clientX;
-    const y = e.clientY + window.scrollY;
+    const y = e.clientY;
     
     body.style.setProperty(
         '--mouse-x',
