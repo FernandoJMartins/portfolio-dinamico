@@ -35,7 +35,7 @@
             height: 100%;
             background: radial-gradient(600px at var(--mouse-x) var(--mouse-y), rgba(29, 78, 216, 0.15), transparent 80%);
             pointer-events: none;
-            z-index: 1;
+      
             transition: background 0.1s ease-out;
         }
 
@@ -67,7 +67,7 @@
             margin-left: 16em;
             padding: 6em 3rem;
             overflow-y: none;
-            z-index: 100;
+      
         }
 
 
@@ -79,7 +79,7 @@
             margin-left: 45%;
             position: relative;
             width: calc(100% - 45%);
-            z-index: 2;
+      
         }
 
 
